@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		726139E223D00AEF0097C197 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726139E123D00AEF0097C197 /* AppDelegate.swift */; };
+		726139E423D00AEF0097C197 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726139E323D00AEF0097C197 /* SceneDelegate.swift */; };
+		726139E623D00AEF0097C197 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726139E523D00AEF0097C197 /* ViewController.swift */; };
+		726139E923D00AEF0097C197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726139E723D00AEF0097C197 /* Main.storyboard */; };
+		726139EC23D00AEF0097C197 /* Herois.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 726139EA23D00AEF0097C197 /* Herois.xcdatamodeld */; };
+		726139EE23D00AF20097C197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726139ED23D00AF20097C197 /* Assets.xcassets */; };
+		726139F123D00AF20097C197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726139EF23D00AF20097C197 /* LaunchScreen.storyboard */; };
+		726139FA23D0195A0097C197 /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726139F923D0195A0097C197 /* HeroViewController.swift */; };
+		726139FD23D019870097C197 /* heroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726139FC23D019870097C197 /* heroViewModel.swift */; };
+		72613A0323D01A0E0097C197 /* HeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72613A0123D01A0E0097C197 /* HeroCell.swift */; };
+		72613A0423D01A0E0097C197 /* HeroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72613A0223D01A0E0097C197 /* HeroCell.xib */; };
+		72613A0723D01B700097C197 /* HeroClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72613A0623D01B700097C197 /* HeroClasses.swift */; };
+		EA970281CAA4635B45CA1FC3 /* Pods_Herois.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2611CEE5FDA6A2B5A54F22 /* Pods_Herois.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A2611CEE5FDA6A2B5A54F22 /* Pods_Herois.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Herois.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E73C69CE5B33C3D76C50A46 /* Pods-Herois.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Herois.debug.xcconfig"; path = "Target Support Files/Pods-Herois/Pods-Herois.debug.xcconfig"; sourceTree = "<group>"; };
+		726139DE23D00AEF0097C197 /* Herois.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Herois.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		726139E123D00AEF0097C197 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		726139E323D00AEF0097C197 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		726139E523D00AEF0097C197 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		726139E823D00AEF0097C197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		726139EB23D00AEF0097C197 /* Herois.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Herois.xcdatamodel; sourceTree = "<group>"; };
+		726139ED23D00AF20097C197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		726139F023D00AF20097C197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		726139F223D00AF20097C197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		726139F923D0195A0097C197 /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
+		726139FC23D019870097C197 /* heroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heroViewModel.swift; sourceTree = "<group>"; };
+		72613A0123D01A0E0097C197 /* HeroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCell.swift; sourceTree = "<group>"; };
+		72613A0223D01A0E0097C197 /* HeroCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroCell.xib; sourceTree = "<group>"; };
+		72613A0623D01B700097C197 /* HeroClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroClasses.swift; sourceTree = "<group>"; };
+		EB7779DEC0A6480CB23203B9 /* Pods-Herois.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Herois.release.xcconfig"; path = "Target Support Files/Pods-Herois/Pods-Herois.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		726139DB23D00AEF0097C197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA970281CAA4635B45CA1FC3 /* Pods_Herois.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		386599390FAE119887623F41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A2611CEE5FDA6A2B5A54F22 /* Pods_Herois.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62B72B9260AF1549AF9A2379 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E73C69CE5B33C3D76C50A46 /* Pods-Herois.debug.xcconfig */,
+				EB7779DEC0A6480CB23203B9 /* Pods-Herois.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		726139D523D00AEF0097C197 = {
+			isa = PBXGroup;
+			children = (
+				726139E023D00AEF0097C197 /* Herois */,
+				726139DF23D00AEF0097C197 /* Products */,
+				62B72B9260AF1549AF9A2379 /* Pods */,
+				386599390FAE119887623F41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		726139DF23D00AEF0097C197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				726139DE23D00AEF0097C197 /* Herois.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		726139E023D00AEF0097C197 /* Herois */ = {
+			isa = PBXGroup;
+			children = (
+				72613A0523D01B080097C197 /* Data */,
+				726139FF23D019990097C197 /* Model */,
+				726139F823D0193F0097C197 /* Home */,
+				726139E123D00AEF0097C197 /* AppDelegate.swift */,
+				726139E323D00AEF0097C197 /* SceneDelegate.swift */,
+				726139E523D00AEF0097C197 /* ViewController.swift */,
+				726139E723D00AEF0097C197 /* Main.storyboard */,
+				726139ED23D00AF20097C197 /* Assets.xcassets */,
+				726139EF23D00AF20097C197 /* LaunchScreen.storyboard */,
+				726139F223D00AF20097C197 /* Info.plist */,
+				726139EA23D00AEF0097C197 /* Herois.xcdatamodeld */,
+			);
+			path = Herois;
+			sourceTree = "<group>";
+		};
+		726139F823D0193F0097C197 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				72613A0A23D021020097C197 /* Delegate */,
+				726139FB23D0196B0097C197 /* ViewModel */,
+				726139FE23D0198D0097C197 /* Controllers */,
+				72613A0023D019D50097C197 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		726139FB23D0196B0097C197 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				726139FC23D019870097C197 /* heroViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		726139FE23D0198D0097C197 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				726139F923D0195A0097C197 /* HeroViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		726139FF23D019990097C197 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72613A0623D01B700097C197 /* HeroClasses.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72613A0023D019D50097C197 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72613A0123D01A0E0097C197 /* HeroCell.swift */,
+				72613A0223D01A0E0097C197 /* HeroCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		72613A0523D01B080097C197 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		72613A0A23D021020097C197 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		726139DD23D00AEF0097C197 /* Herois */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 726139F523D00AF20097C197 /* Build configuration list for PBXNativeTarget "Herois" */;
+			buildPhases = (
+				A0A1E8466E6EE14A8B046AD3 /* [CP] Check Pods Manifest.lock */,
+				726139DA23D00AEF0097C197 /* Sources */,
+				726139DB23D00AEF0097C197 /* Frameworks */,
+				726139DC23D00AEF0097C197 /* Resources */,
+				28919C899C29D96240923C61 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Herois;
+			productName = Herois;
+			productReference = 726139DE23D00AEF0097C197 /* Herois.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		726139D623D00AEF0097C197 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Developer;
+				TargetAttributes = {
+					726139DD23D00AEF0097C197 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 726139D923D00AEF0097C197 /* Build configuration list for PBXProject "Herois" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 726139D523D00AEF0097C197;
+			productRefGroup = 726139DF23D00AEF0097C197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				726139DD23D00AEF0097C197 /* Herois */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		726139DC23D00AEF0097C197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726139F123D00AF20097C197 /* LaunchScreen.storyboard in Resources */,
+				726139EE23D00AF20097C197 /* Assets.xcassets in Resources */,
+				726139E923D00AEF0097C197 /* Main.storyboard in Resources */,
+				72613A0423D01A0E0097C197 /* HeroCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28919C899C29D96240923C61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Herois/Pods-Herois-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Herois/Pods-Herois-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Herois/Pods-Herois-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0A1E8466E6EE14A8B046AD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Herois-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		726139DA23D00AEF0097C197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72613A0723D01B700097C197 /* HeroClasses.swift in Sources */,
+				726139FA23D0195A0097C197 /* HeroViewController.swift in Sources */,
+				726139E623D00AEF0097C197 /* ViewController.swift in Sources */,
+				726139FD23D019870097C197 /* heroViewModel.swift in Sources */,
+				726139EC23D00AEF0097C197 /* Herois.xcdatamodeld in Sources */,
+				726139E223D00AEF0097C197 /* AppDelegate.swift in Sources */,
+				72613A0323D01A0E0097C197 /* HeroCell.swift in Sources */,
+				726139E423D00AEF0097C197 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		726139E723D00AEF0097C197 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				726139E823D00AEF0097C197 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		726139EF23D00AF20097C197 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				726139F023D00AF20097C197 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		726139F323D00AF20097C197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		726139F423D00AF20097C197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		726139F623D00AF20097C197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E73C69CE5B33C3D76C50A46 /* Pods-Herois.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QKK7XMFTBC;
+				INFOPLIST_FILE = Herois/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leoalmeida.Herois;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		726139F723D00AF20097C197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7779DEC0A6480CB23203B9 /* Pods-Herois.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QKK7XMFTBC;
+				INFOPLIST_FILE = Herois/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leoalmeida.Herois;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		726139D923D00AEF0097C197 /* Build configuration list for PBXProject "Herois" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726139F323D00AF20097C197 /* Debug */,
+				726139F423D00AF20097C197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		726139F523D00AF20097C197 /* Build configuration list for PBXNativeTarget "Herois" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726139F623D00AF20097C197 /* Debug */,
+				726139F723D00AF20097C197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		726139EA23D00AEF0097C197 /* Herois.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				726139EB23D00AEF0097C197 /* Herois.xcdatamodel */,
+			);
+			currentVersion = 726139EB23D00AEF0097C197 /* Herois.xcdatamodel */;
+			path = Herois.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 726139D623D00AEF0097C197 /* Project object */;
+}
